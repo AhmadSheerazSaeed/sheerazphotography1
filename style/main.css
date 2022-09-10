@@ -8,7 +8,7 @@ body {
   margin: 1rem;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 376px) {
   .socialMediaIcons {
     display: flex;
     flex-direction: row;
@@ -47,5 +47,13 @@ body {
   }
   .span-nav-a {
     color: crimson;
+  }
+  .imageSection {
+    width: 100%;
+    height: 500px;
+  }
+  .firstGallerySection {
+    background-image: url("../images/portrait/p6.jpg");
+    background-size: 100% 100%;
   }
 }/*# sourceMappingURL=main.css.map */

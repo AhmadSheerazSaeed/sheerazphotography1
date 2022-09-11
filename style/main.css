@@ -17,7 +17,7 @@ body {
   }
   .socialMediaIcons a img {
     width: 100%;
-    height: 50px;
+    height: 30px;
   }
   .sheerazPhotographyLogo {
     display: flex;
@@ -50,10 +50,19 @@ body {
   }
   .imageSection {
     width: 100%;
-    height: 50gig0px;
+    height: 450px;
   }
   .firstGallerySection {
+    margin-top: 30px;
     background-image: url("../images/portrait/p6.jpg");
+    background-size: 100% 100%;
+  }
+  .secondGallerySection {
+    background-image: url("../images/city/c5.jpg");
+    background-size: 100% 100%;
+  }
+  .thirdGallerySection {
+    background-image: url("../images/nature/n6.jpg");
     background-size: 100% 100%;
   }
 }/*# sourceMappingURL=main.css.map */

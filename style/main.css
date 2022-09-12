@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 body {
@@ -53,6 +54,7 @@ body {
     height: 450px;
   }
   .firstGallerySection {
+    position: relative;
     margin-top: 30px;
     background-image: url("../images/portrait/p6.jpg");
     background-size: 100% 100%;
@@ -64,5 +66,32 @@ body {
   .thirdGallerySection {
     background-image: url("../images/nature/n6.jpg");
     background-size: 100% 100%;
+  }
+  .firstGallerySection a {
+    position: absolute;
+    font-size: 4rem;
+    color: black;
+    text-decoration: underline;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .secondGallerySection a {
+    position: absolute;
+    font-size: 4rem;
+    color: white;
+    text-decoration: underline;
+    top: 108%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .thirdGallerySection a {
+    position: absolute;
+    font-size: 4rem;
+    color: white;
+    text-decoration: underline;
+    top: 154%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }/*# sourceMappingURL=main.css.map */
